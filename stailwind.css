@@ -1,0 +1,283 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 5;
+}
+
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 50px;
+    margin-top: 5px;
+}
+.nav-items{
+    display: flex;
+       justify-content: space-between;
+       width: 60%;
+       align-items: center;
+}
+
+.nav-items span{
+    font-size: 17px;
+    font-weight: 600;
+}
+.nav-items span i{
+     margin-right: 5px;   
+}
+.nav-items span:hover{
+    font-weight: 700;
+    color: rgb(250, 96, 96);
+    
+}
+.nav-items span i:hover{
+    color: rgb(250, 96, 96);
+    font-weight: 700;
+}
+
+.top-menu{
+    height: auto;
+    background-color: rgb(247, 247, 247);
+}
+.top-menu h2{
+    margin-left: 10%;
+    padding-top: 15px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.menu-items{
+     
+    margin-left: 12%;
+}
+.menu-items img{
+    height: 190px;
+    
+    mix-blend-mode: darken;
+}
+
+.restaurants{
+
+display: flex;
+justify-content: space-between;
+height: 350px;
+width: 80%;
+margin-left: 12%;
+
+}
+.restaurant{
+    height: 300px;
+    width: 265px;
+    /* border: 2px solid black; */
+}
+.restaurant:hover{
+    scale: 90%;
+}
+.discount{
+    color: #ffffff;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 4px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.restaurant img{
+    height: 180px;
+     width: 220px;
+     object-fit: cover;
+     border-radius: 17px;
+}
+.restro-name{
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(65, 65, 65);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.star{
+    margin-left: 10px;
+    margin-top: 3px;
+    height: 20px;
+    width: 20px;
+    background-color: #17c500ce;
+    border-radius: 50%;
+}
+.star i{
+    color: white;
+     padding: 1px;
+}
+.rating{
+    margin-left: 35px;
+    position: absolute;
+    margin-top: -20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(84, 84, 84);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.restaurant p{
+    margin-left: 10px;
+    color: rgb(69, 68, 68);
+    position: absolute;
+    margin-top: 6px;
+    font-size: 17px;
+}
+.main-filter{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+.filters{
+    width: 70%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filters span{
+    padding: 5px;
+    border:  solid 2px rgb(139, 139, 139);
+    border-radius: 15px;
+    color: rgb(104, 104, 104);
+    /* box-shadow:1px 1px 1px 1px; */
+}
+.main-chain{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+}
+.chain{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 80%;
+    margin-left: 12%;
+    
+    }
+    .chain-rst{
+        height: 260px;
+        width: 265px;
+        /* border: 2px solid black; */
+    }
+    .chain-rst:hover{
+        scale: 90%;
+    }
+    .discount{
+        color: #ffffff;
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 4px;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+    }
+    .chain-rst img{
+        height: 180px;
+         width: 200px;
+         object-fit: cover;
+         border-radius: 17px;
+    }
+    .restro-name{
+        font-size: 19px;
+        font-weight: 700;
+        color: rgb(65, 65, 65);
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    .star{
+        margin-left: 10px;
+        margin-top: 3px;
+        height: 20px;
+        width: 20px;
+        background-color: #17c500ce;
+        border-radius: 50%;
+    }
+    .star i{
+        color: white;
+         padding: 1px;
+    }
+    .rating{
+        margin-left: 35px;
+        position: absolute;
+        margin-top: -20px;
+        font-size: 16px;
+        font-weight: 700;
+        color: rgb(84, 84, 84);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .chain-rst p{
+        margin-left: 10px;
+        color: rgb(69, 68, 68);
+        position: absolute;
+        margin-top: 6px;
+        font-size: 17px;
+    }
+    .main-city{
+        width: 100%;
+        height: 330px;
+        background-color: rgb(247, 247, 247);
+    }
+    .citys{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        height: 270px;
+        margin-left: 10%;
+        /* border: 2px solid  #f30000; */
+    }
+    .city-name{
+        /* border:2px solid  #f30000; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width:24%;
+        height: 200px;
+    }
+    .main-name{
+        width: 90%;
+        height:22% ;
+        border: 1px ridge rgb(0, 0, 0);
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .main-name span{
+        font-weight: 400;
+        font-family:sans-serif;
+        font-size: 14px;
+       
+
+    }
+    .app-link{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background: #faeeff;
+    }
+    .app-link h1{
+        width: 50%;
+        margin-left: 10%;
+        
+    }
+    .app-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:40% ;
+        height:100px ;
+        gap: 5px;
+    }
+    .app-logo img{
+        width: 200px;
+        height: 70px;
+    }

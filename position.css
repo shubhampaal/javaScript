@@ -1,0 +1,37 @@
+
+.container{
+    background: #6c6b6b;
+    height: 1000px;
+    width: auto;
+}
+.box1{
+    position: fixed;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: #27c500;
+}
+.box2{
+    position: sticky;
+    top: 100px;
+    right: 200px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(157, 237, 8);
+    background-color: #8a00c5;
+}
+.box3{
+    width: 100px;
+    position: relative;
+    top: 30px;
+    height: 100px;
+    border: 2px solid rgb(0, 119, 255);
+    background-color: #ffda0b;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(255, 0, 255);
+    background-color: #001ac5;
+}
